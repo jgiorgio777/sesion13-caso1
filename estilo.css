@@ -1,0 +1,51 @@
+body {
+    /* Color de letras */
+    color: #fff;
+    /* color de fondo */
+    background-color: #001e64;
+    /* fuente de letra */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* agregar espaciamiento */
+    padding-left: 20em;
+}
+
+a {
+    color: #ff9900;
+    text-decoration: none;
+}
+
+/* Para que cambie de colores con el mouse */
+a:visited {
+    color: #ff9900
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+a:active {
+    color: #ff9900;
+}
+
+/* Letra de Halloween */
+h2 {
+    font-family: 'Nosifer', cursive;
+}
+
+ul.barranavegacion {
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 20em;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul.barranavegacion li {
+    background-color: black;
+    /* color en el borde de la barra de bavecaión */
+    margin: 0.5em 0px;
+    /* color en la derecha de la barra de navecaion */
+    border-right: 1em solid #ff9900;
+}
